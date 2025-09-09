@@ -17,8 +17,8 @@ from __future__ import annotations
 from typing import Iterable, List, Tuple
 import math
 
-from .whatsapp_parser import Message
-from .analysis_utils import (
+from whatsapp_parser import Message
+from analysis_utils import (
     message_counts,
     messages_by_hour,
     messages_by_weekday,

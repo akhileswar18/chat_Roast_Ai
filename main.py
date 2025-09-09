@@ -26,8 +26,8 @@ import matplotlib.pyplot as plt
 
 from typing import List
 
-from .whatsapp_parser import parse_chat
-from .analysis_utils import (
+from whatsapp_parser import parse_chat
+from analysis_utils import (
     message_counts,
     messages_by_day,
     messages_by_hour,
@@ -35,7 +35,7 @@ from .analysis_utils import (
     top_emojis,
     top_words,
 )
-from .roast_engine import generate_roast
+from roast_engine import generate_roast
 
 
 def _ensure_output_dir(path: Path) -> None:

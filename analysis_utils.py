@@ -14,7 +14,7 @@ from collections import Counter, defaultdict
 from datetime import datetime
 from typing import Iterable, Dict, List, Tuple
 
-from .whatsapp_parser import Message
+from whatsapp_parser import Message
 
 # A small set of common English stopwords for word frequency analysis.  For a
 # production system you might use nltk.corpus.stopwords instead.
